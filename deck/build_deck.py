@@ -248,13 +248,13 @@ add_title(s3, "3 / 4 · COMMERCIAL IMPACT", "Illustrative estimates from stated 
 
 # Metric 1
 bullet_box(s3, 0.5, 1.55, 4.0, 0.3, "Service cost per inquiry", [], heading_color=BLUE)
-stat_card(s3, 0.5, 1.95, 1.9, 1.0, "$6.25", "baseline / inquiry", MUTED)
-stat_card(s3, 2.55, 1.95, 1.9, 1.0, "$5.32", "with AI (-15%)", GREEN)
+stat_card(s3, 0.5, 1.95, 1.9, 1.0, "$5.83", "baseline / inquiry", MUTED)
+stat_card(s3, 2.55, 1.95, 1.9, 1.0, "$4.96", "with AI (-15%)", GREEN)
 box1 = s3.shapes.add_textbox(Inches(0.5), Inches(3.05), Inches(4.0), Inches(1.85))
 tf = box1.text_frame
 tf.word_wrap = True
 p = tf.paragraphs[0]
-p.text = "30 FTEs × $15K = $450K/yr ÷ 72,000 inquiries/yr."
+p.text = "28 FTEs × $15K = $420K/yr ÷ 72,000 inquiries/yr."
 p.font.size = Pt(10)
 p.font.color.rgb = DARK
 p2 = tf.add_paragraph()
@@ -263,7 +263,7 @@ p2.font.size = Pt(10)
 p2.font.color.rgb = MUTED
 p2.space_before = Pt(6)
 p3 = tf.add_paragraph()
-p3.text = "Same 30 FTEs then absorb ~18% more volume; AI cost at that volume (real measured rate) stays trivial either way."
+p3.text = "Same 28 FTEs then absorb ~18% more volume; AI cost at that volume (real measured rate) stays trivial either way."
 p3.font.size = Pt(10)
 p3.font.color.rgb = MUTED
 p3.space_before = Pt(4)
