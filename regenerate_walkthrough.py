@@ -58,6 +58,8 @@ def main():
         result = process_message(client, msg, config)
         result["ground_truth_category"] = msg.get("ground_truth_category")
         result["split"] = msg.get("split")
+        result["expected_sensitive_topic"] = msg.get("sensitive_topic", False)
+        result["expected_retention_risk_override"] = msg.get("retention_risk_override", False)
         results.append(result)
 
     stats = compute_stats(results, config["categories"])
