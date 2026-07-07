@@ -8,15 +8,7 @@ outputs/
 
 # Real, company-named private submission deliverables - kept locally,
 # delivered directly to the employer, never pushed to the public repo.
-# Exact filenames only - the generic "Example Co." versions are
-# intentionally tracked and public.
-/Example Co. AI Build Plan (v3).docx
-/Example Co. Client Services Strategy.docx
-/Example Co. Client Services Strategy.pdf
-/deck/Example Co. Strategy Deck.pptx
-/deck/loom_script.md
-/deck/example_co_architecture_production.html
-/deck/example_co_architecture_production.png
-/deck/Example Co. - production architecture.pdf
-/results/example_co_walkthrough_run.json
-/results/example_co_walkthrough_run.html
+# Moved to /private/ so this file never has to spell out the real
+# company name - the generic "Example Co." versions are intentionally
+# tracked and public.
+/private/
